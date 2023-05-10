@@ -1,0 +1,14 @@
+.main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    /* align-self: center; */
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5% , 3% , 5% , 3%;
+    /* top: 50%; */
+    border-radius: 10px;
+}
+.MuiInputBase-root{
+    height: 35px !important;
+}

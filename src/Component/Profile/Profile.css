@@ -1,0 +1,238 @@
+.coverPic {
+    width: 70%;
+    height: 250px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.cPicc {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.pPicc {
+    width: 80px !important;
+    height: 80px !important;
+    left: 20px;
+    top: -38px !important;
+}
+
+.details {
+    line-height: 5px;
+    display: flex;
+    position: absolute;
+    top: 240px;
+    left: 300px;
+}
+
+.mar {
+    margin-right: 30px;
+}
+
+.pMain {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    /* align-self: center; */
+    margin: 0px auto;
+    /* height: auto; */
+    padding: 20px;
+    border-radius: 5%, 3%, 5%, 3%;
+    /* top: 50%; */
+    border-radius: 10px;
+}
+.MuiInputBase-root{
+    height: 35px !important;
+    width: 300px;
+}
+.Mui-error{
+    width: 280px !important;
+}
+
+.pDetail {
+
+    margin-top: 50px !important;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 80%;
+    /* align-self: center; */
+    margin: 0px auto;
+    /* height: auto; */
+    padding: 20px;
+    border-radius: 5%, 3%, 5%, 3%;
+    /* top: 50%; */
+    border-radius: 10px;
+
+}
+.superAdmin1{ display: block; color : #1362FC }
+.superAdmin2{ display: block; color: #828690 }
+.adminEmail1{ display: block; color: #464A53 }
+.adminEmail2{ display: block; color: #828690 }
+.pAdmin{ color: #1362FC; margin-left: 10%; margin-bottom: 2% }
+.adminForm{ display: flex; justify-content: space-around }
+.title{ display: "block" }
+.fileT{ display: block; margin-bottom: 2px }
+.buttn{ text-align: center; margin-top: 35px }
+
+@media screen and (max-width: 768px) {
+
+    .pPicc {
+        width: 60px !important;
+        height: 60px !important;
+        left: 0px;
+        top: -37px !important;
+    }
+
+    .details {
+        line-height: 5px;
+        display: flex;
+        position: absolute;
+        top: 235px;
+        left: 175px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .details {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 225px;
+        /* left: 115px; */
+        text-align: center;
+        width: 275px;
+        margin: 0px auto !important;
+        left: auto;
+        /* margin: 0px auto; */
+    }
+
+    .mar {
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .pPicc {
+        width: 80px !important;
+        height: 80px !important;
+        left: 35%;
+        top: -40px !important;
+    }
+
+    .cPicc {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .pMain {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 80%;
+        /* align-self: center; */
+        margin: 0px auto;
+        height: 310px;
+        padding: 20px;
+        border-radius: 5%, 3%, 5%, 3%;
+        /* top: 50%; */
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 225px;
+        /* left: 115px; */
+        text-align: center;
+        width: 260px;
+        margin: 0px auto !important;
+        left: auto;
+        /* margin: 0px auto; */
+    }
+
+    .mar {
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .pPicc {
+        width: 80px !important;
+        height: 80px !important;
+        left: 35%;
+        top: -40px !important;
+    }
+
+    .cPicc {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .pMain {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 80%;
+        /* align-self: center; */
+        margin: 0px auto;
+        height: 310px;
+        padding: 20px;
+        border-radius: 5%, 3%, 5%, 3%;
+        /* top: 50%; */
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .details {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 220px;
+        /* left: 115px; */
+        text-align: center;
+        width: 210px;
+        margin: 0px auto !important;
+        left: auto;
+        /* margin: 0px auto; */
+    }
+
+    .mar {
+        margin-bottom: 5px;
+        margin-right: 0px;
+    }
+
+    .pPicc {
+        width: 80px !important;
+        height: 80px !important;
+        left: 32%;
+        top: -40px !important;
+    }
+
+    .cPicc {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .pMain {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 80%;
+        /* align-self: center; */
+        margin: 0px auto;
+        height: 310px;
+        padding: 20px;
+        border-radius: 5%, 3%, 5%, 3%;
+        /* top: 50%; */
+        border-radius: 10px;
+    }
+
+    .details>div>p {
+        font-size: 12px;
+    }
+}
